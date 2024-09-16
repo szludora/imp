@@ -1,0 +1,22 @@
+https://people.inf.elte.hu/qo5kui/ip/gyak01.html
+https://en.cppreference.com/w/c
+
+pwd - print working directory (ebben a mappában vagyunk aktuálisan)
+ls - a mappában lévő dolgok kilistázása
+man ... - manual ... pl: 'man ls'
+mkdir - mappa létrehozása
+cd - change directory
+.. - visszamenni pl: 'cd ..'
+cat - concafinate (összefűz). kirja pl a txt tartalmát
+gedit - megcsinál és megnyit egy txt-t
+rm - remove
+mv - move
+cp - copy
+touch - létrehoz egy fájlt
+rmdir - csak üreset lehet törölni
+rm -r ... - bármilyen mappát törölni
+clear - üres terminál
+sudo apt install gcc (fordító program teleptése linuxon)
+gcc ... - gcc fájl_neve
+gcc fajlnevekiterjesztessel -o programneve
+gcc fajlnevekiterjesztessel -o programneve -W -Wall -Wextra -pedantic
