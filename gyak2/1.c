@@ -3,9 +3,9 @@
 
 int main(){
     /*int x;*/
-    /*char karakter = 'a';*/
+    char karakter = 'a';
 
-    int igen = 1;
+    /*int igen = 1;*/
 
     /*printf("%d\n", x);*/
     
