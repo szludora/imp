@@ -1,12 +1,17 @@
 #include <stdio.h>
-/*#include <stdbool.h>*/
 
 int main(){
     int x;
-    x = 42;
-    if(x % 2)
+    x = 41;
+
+    if(x % 2){
+
         printf("Páratlan\n");
-    else
+    }
+    else{
         printf("Páros\n");
+        printf("A szám: %d\n", x);
+    }
+
     return 0;
 }
