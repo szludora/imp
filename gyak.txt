@@ -20,3 +20,6 @@ sudo apt install gcc (fordító program teleptése linuxon)
 gcc ... - gcc fájl_neve
 gcc fajlnevekiterjesztessel -o programneve
 gcc fajlnevekiterjesztessel -o programneve -W -Wall -Wextra -pedantic
+
+./fajl | less
+./fajlt | head -n20
