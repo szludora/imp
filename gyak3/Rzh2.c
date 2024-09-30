@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+vois swap(int from, int to){
+    int tmp = from;
+    from = to;
+    to = tmp;
+}
+
 int main(){
     int i, a, b;
 

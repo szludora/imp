@@ -2,16 +2,23 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define LIMIT 100;
+
+int get_target(){
+    return rand() % LIMIT;
+}
+
 int main(){
     srand(time(NULL));
-    const int szam= 3;
-    int x;
+    const int target = get_target();
+    int tipp;
     
     do{
-        x = rand() % 20;
-        printf("kitalálandó: %d\ntipped: %d\n", szam, x);
+        printf("Tipp: ");
+        scanf("%d", &tipp);
+        printf("%s\n a kitalálandó számtól, ami: \n%d\n", (target < tipp) ? "nagyobb" : "kisebb", target);
     }
-    while(x != szam);
+    while(tipp != target);
 
     printf("Kitaláltad... :D\n");
     
